@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+#spotlight{
+    padding: 63px 0 20px 0 ;
+}
+#spotlight div{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#spotlight div img{
+    width: 100%;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card{
+    background-color:rgb(34, 34, 34);
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;    
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.iconimg{
+    width: 10%;
+    filter: invert(1);
+}
+.cardcontent{
+    width: 90%;
+    text-align: center;
+}
+.cardcontent h4{
+    color: white;
+}
